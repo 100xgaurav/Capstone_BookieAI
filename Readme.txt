@@ -1,3 +1,3 @@
-100X New File
-First Commit
-Edited File
+New Repository:
+
+Yet to add details.
