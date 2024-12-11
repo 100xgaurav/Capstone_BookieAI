@@ -121,7 +121,6 @@ def create_bookmark_button(result):
         'Dead': '#dc3545'
     }.get(result['status'], '#6c757d')  # Default to gray
 
-    # Use the URL if the title is ["N/A"]
     display_text = result['url'] if result['title'] == ["N/A"] else result['title'][0]
 
     return f"""
