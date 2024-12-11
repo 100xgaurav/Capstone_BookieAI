@@ -118,7 +118,7 @@ def create_bookmark_button(result):
         'Active': '#28a745',  # Green
         'Active with non-standard metadata': '#ffa500',  # Orange
         'Inactive': '#ffa500',  # Orange
-        'Dead': '#dc3545'  # Red
+        'Dead': '#dc3545'
     }.get(result['status'], '#6c757d')  # Default to gray
 
     # Use the URL if the title is ["N/A"]
